@@ -2,63 +2,62 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>My-Profile</title>
-    <link rel="stylesheet" type="text/css" href="style.css"
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img id="foto1" src="Foto atual 2.jpg" width="200px">
-<br> 
-<a href="#foto1">Sobre   /    </a>
-<a href="#hab">Habilidades e Conhecimentos   /   </a>
-<a href="#redes">Redes Sociais</a>
-<h1>Bruno Bastos Fernandes</h1>
-    <p>
-        <h2 id="sobre">Sobre Mim</h2>
-        Sou formando na Universidade de Fortaleza e aluno da Trybe.
-        Possuo sonhos como toda pessoa e um deles é me tornar uma pessoa de refêrencia na área.
-        Sou <strong style="color:rgb(149,175,41);">Brasileiro</strong>, residente na cidade de <strong style="color:rgb(149,175,41);">Fortaleza-Ce</strong>.   
-    </p>
-        <h2 id="hab">Habilidades e Conhecimentos</h2>
-    <strong><em>Meus Conhecimentos</em>:</strong>  
-<al>
-    <li>JavaScript</li>
-    <li>ReactJS</li>
-    <li>HTML</li>
-    <li>CSS</li>
-</al>
-<br>
-    <strong><em>Minhas Habilidades</em>:</strong>
-<al>
-    <strong><li>Gosto de trabalhar em equipe</li></strong>
-    <strong><li>Proativo</li></strong>
-    <li>Boa comunicação</li>
-    <strong><li>Gosto de fazer amizades</li></strong>
-    <li>Dedicado</li>
-</al>
-
-<br>
-Lista de Sites/Blogs que acompanho:  
-<al>
-    <li>
-        <a href="https://www.edivaldobrito.com.br/">https://www.edivaldobrito.com.br/</a><br>
-    </li>
-    <li>
-        <a href="https://pt.stackoverflow.com/">https://pt.stackoverflow.com/</a>
-    </li>
-    <li>
-        <a href="https://www.techtudo.com.br/">https://www.techtudo.com.br/</a>
-    </li>
-    <li>
-        <a href="https://www.treinaweb.com.br/blog/tag/javascript/">https://www.treinaweb.com.br/blog/tag/javascript/</a>
-    </li>
-</al>
-<p id="redes">Estas são as minhas redes sociais:</p> 
-<br>
-<a target="_blank" href="https://www.linkedin.com/in/brunobastosfer/"><img src="https://www.flaticon.com/svg/vstatic/svg/174/174857.svg?token=exp=1612832580~hmac=2fc648de88bb6ae664573a3d878a7be5" width="50px"></a>
-<a target="_blank" href="https://github.com/brunobastosfer"><img src="https://www.onmsft.com/wp-content/uploads/2018/09/github.png" width="100px"></a>
-<br>
-<br>
-<br>
-<a href="#foto1">Início</a>
+      <div class="header-content">
+        <div id="description" class="name">
+          Bruno Bastos Fernandes
+        </div>
+        <div class="links">
+          <a href="#description">Sobre Mim / </a>
+          <a href="#learning">Conhecimentos / </a>
+          <a href="#skills">Habilidades</a>
+        </div> 
+        <div class="photo">
+          <img src="Foto atual2.png" alt="minhafoto">
+        </div>
+        <div class="about-me">
+            <span>Sou formando na Universidade de Fortaleza e aluno da Trybe. Possuo sonhos como toda pessoa e um deles é me tornar refêrencia na área de desenvolvimento. Me tornei um usuário da tela preta da alegria. Sou <strong class="nasceu">Brasileiro</strong>, residente na cidade de <strong class="nasceu">Fortaleza-Ce</strong></span>.
+        </div>
+      </div>
+      <div class="learning">
+        <span id="learning" class="my-learning">Meus Conhecimentos:</span>
+        <ul class="under-list2">
+          <li>ReactJS</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+      <div class="skills">
+        <span id="skills" class="my-skills">Minhas Habilidades:</span>
+        <ul class="under-list">
+          <li>Gosto de trabalhar em equipe</li>
+          <li><strong>Proativo</strong></li>
+          <li>Boa comunicação</li>
+          <li>Gosto de fazer amizades</li>
+          <li><strong>Dedicado</strong></li>
+        </ul>
+      </div>
+      <div class="list">
+        <span class="my-skills">Lista de Sites/Blogs que acompanho:</span>
+        <ol class="order-list">
+          <li><a href="https://www.edivaldobrito.com.br" target="_blank">https://www.edivaldobrito.com.br</a></li>
+          <li><a href="https://pt.stackoverflow.com" target="_blank">https://pt.stackoverflow.com</a></li>
+          <li><a href="https://www.techtudo.com.br" target="_blank">https://www.techtudo.com.br</a></li>
+          <li><a href="https://www.treinaweb.com.br/blog/tag/javascript/" target="_blank">https://www.treinaweb.com.br</li></a>
+        </ol>
+      </div>
+      <span class="my-skills">Estas são minhas redes sociais:</span>
+      <div class="social-midia">
+        <a href="https://github.com/brunobastosfer/" target="_blank"><img class="imggit" src="https://www.logo.wine/a/logo/GitHub/GitHub-Wordmark-Logo.wine.svg" alt="github"></a>
+        <a href="https://www.linkedin.com/in/brunobastosfer/" target="_blank"><img class="imglinkedin" src="https://www.logo.wine/a/logo/LinkedIn/LinkedIn-Logo.wine.svg" alt="imgLinkedIn"></a>
+      </div>  
 </body>
 </html>

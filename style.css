@@ -1,7 +1,106 @@
-body {
-    background-color: #00333d;
+* {
+    margin: 0px;
+    padding: 0px;
     color: white;
+    font-family: Inter;
 }
-a {
+
+body{
+    background-color: #00333d;
+}
+
+.header-content{
+    width: 100vw;
+    box-sizing: border-box;
+    
+}
+
+.photo{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.photo img{
+    width: 100%;
+    border: 2px solid red;
+    background-color: white;
+}
+
+.name{
+    width: 70%;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 115px;
+}
+
+.about-me{
+    width: 30%;
+    text
+    margin-left: 20px;
+    display: inline-block;
+    overflow: auto;
+}
+
+.nasceu {
+    color: rgb(149,175,41)
+}
+
+.under-list{
+    margin-left: 20px;
+}
+
+.under-list2{
+    margin-left: 20px;
+}
+
+.order-list{
+    margin-left: 20px;
+}
+
+.my-skills{
     color: rgb(149,175,41);
+    font-weight:700;
+}
+
+.my-learning{
+    color: rgb(149,175,41);
+    font-weight:700;
+}
+
+.learning{
+    padding: 15px 0;
+}
+
+.skills{
+    padding: 15px 0;
+}
+
+.list{
+    margin-bottom: 15px;
+}
+
+.list a:hover{
+    color:grey;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.imggit{
+    width: 100px;
+}
+
+.imglinkedin{
+    width: 100px;
+}
+
+.links a:hover{
+    color:gray;
+}
+
+.links{
+    font-size: 14px;
+    font-family: monospace;
 }
